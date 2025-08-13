@@ -4687,3 +4687,20 @@ input, select, textarea {
 		}
 
 	}
+	/* Resume button: icon small, text white, outline white */
+.button.icon.solid.fa-download {
+  color: #fff !important; /* Text color */
+  box-shadow: inset 0 0 0 2px #fff !important; /* White outline */
+}
+
+/* Icon size + color */
+.button.icon.solid.fa-download:before {
+  font-size: 0.9rem; /* Smaller icon */
+  color: #fff !important; /* White icon */
+}
+
+/* Keep outline + colors white on hover */
+.button.icon.solid.fa-download:hover {
+  color: #fff !important;
+  box-shadow: inset 0 0 0 2px #fff !important;
+}
